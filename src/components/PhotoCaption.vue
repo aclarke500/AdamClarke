@@ -1,28 +1,15 @@
 <template>
   <div class="container">
     <div class="img-container">
-      <img :src="props.path" alt="Verus">
-      <figcaption>{{ caption }}</figcaption> <!-- Caption for the image -->
+      <img :src="props.photoUrl" alt="Verus">
+      <figcaption>Vinicius and myself winning the Wisdom of the Market Award at the Annual Queen's Innovation Centre Pitch Competition</figcaption> <!-- Caption for the image -->
     </div>
   </div>
 </template>
-
 <script setup>
-import { ref } from 'vue'
-
-// Define props with their types and default values
 const props = defineProps({
-  path: String,
-  caption: String
+  photoUrl: String,
 })
-
-// You don't need to make a reactive state for the props
-// You can directly use props.path and props.caption in your template
-
-// If you want to have a local reactive state that reacts to prop changes, you can use a watchEffect or computed
-// However, for just displaying the values, using them directly is sufficient
-
-console.log(props.path)
 </script>
 
 
@@ -44,9 +31,5 @@ console.log(props.path)
   object-position: 50% 0%; /* Adjust this if you need to focus on a different part of the image */
 }
 
-figcaption {
-  color: #333; /* Caption text color */
-  font-size: 0.9em; /* Caption text size */
-  margin-top: 8px; /* Space between image and caption */
-}
+
 </style>

@@ -2,7 +2,7 @@
   <div class="content-area">
       <p>I'm a Computer Science student at Queen's University. In short, I have two main passions. Creating and computers. I enjoy pursuing both. Simultaneously.</p>
       <p> This has lead me to my passion for computer science and entrepreneurship.  </p>
-      <p>I've made this website to showcase myself my skills, and my hobbies. Feel free to look around, check out my portfolios and connect!</p>
+      <p>I've made this website to showcase myself, my skills, and my hobbies. Feel free to look around, check out my portfolios and connect!</p>
     </div>
 </template>
 

@@ -6,7 +6,9 @@
     </div>
   </div>
 </template>
-<script setup></script>
+<script setup>
+
+</script>
 
 
 <style scoped>
@@ -27,9 +29,5 @@
   object-position: 50% 0%; /* Adjust this if you need to focus on a different part of the image */
 }
 
-figcaption {
-  color: #333; /* Caption text color */
-  font-size: 0.9em; /* Caption text size */
-  margin-top: 8px; /* Space between image and caption */
-}
+
 </style>

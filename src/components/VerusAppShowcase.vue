@@ -2,10 +2,14 @@
 <p>Verus is a full stack application I have been developing since May 2022. In order to build Verus, I first taught myself web development with Vue. Throughout developing and refactoring this application, I have gained invaluable insight into the intricacies of software development, the importance of design patterns, and the grace of modular code and abstraction. </p>
 <p>What sets this apart from internships, school and general computer science experience, is the creativity and scope of the work. In order to make the app usauble, I had to consider the end user, the data, as well as the development cycle. Unlike school where the project is laid out, or in an internship where I have a manager, I was thrown into the deep end and in charge of everything. </p>
 
-<PhotoCaption  :path="../assets/Adam2.png" :caption="test123" />
+<AppScreenshot />
 </template>
 <script setup>
+import { ref } from 'vue';
 import PhotoCaption from './PhotoCaption.vue';
+import AppScreenshot from './AppScreenshot.vue';
+
+const filePath = ref('@/assets/Adam2.png');
 </script>
 
 <style scoped>
