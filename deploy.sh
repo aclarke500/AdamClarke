@@ -1,6 +1,4 @@
-npm run build
 
-git add .
 
 git add dist && git commit -m "adding dist subtree"
 
