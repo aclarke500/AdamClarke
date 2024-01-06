@@ -4,7 +4,7 @@
       <img :src="props.data.photo" alt="runtimes" border="0">
       <h1 class="project-title">{{ props.data.title }}</h1>
     </div> 
-    <p v-if="props.data.websiteUrl">Check it out <a id="site-link" :href="props.data.websiteUrl">here:</a></p>
+    <p v-if="props.data.websiteUrl">Check it out <a id="site-link" :href="props.data.websiteUrl" target="_blank">here:</a></p>
     <p v-for="(entry, index) in props.data.description" :key="index">{{ entry }}</p>
     <!-- Wrap the GitHub icon with a div for centering -->
     <div v-if="props.data.githubUrl" class="icon-container">
