@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="header">
-      <img :src="props.data.photoUrl" alt="runtimes" border="0">
+      <img :src="props.data.photo" alt="runtimes" border="0">
       <h1 class="project-title">{{ props.data.title }}</h1>
     </div> 
     <p v-if="props.data.websiteUrl">Check it out <a id="site-link" :href="props.data.websiteUrl">here:</a></p>
@@ -20,6 +20,7 @@
 const props = defineProps({
   data: Object
 })
+
 
 
 </script>
