@@ -2,10 +2,11 @@
   <div class="portfolio">
     <p>Here I've listed some of the projects I've built that best demonstrate my abilites and interests. With the
       exception of Verus, all of these
-      projects are open source so feel free to copy anything you like, and all are authored solely by me. None of these
+      projects are open source so feel free to copy anything you like. None of these
       are tutorials or class assignments unless otherwise stated.</p>
     <div id="project-github">
       <ProjectGithubComponentVue class="project-github-component-vue" :data="state.verusProject" />
+      <ProjectGithubComponentVue class="project-github-component-vue" :data="state.codeNamesProject" />
       <ProjectGithubComponentVue class="project-github-component-vue" :data="state.operatingSystemStudySite" />
       <ProjectGithubComponentVue class="project-github-component-vue" :data="state.classificationProject" />
       <ProjectGithubComponentVue class="project-github-component-vue" :data="state.arduinoTwosComplementProject" />
@@ -15,6 +16,18 @@
 <script setup>
 import { reactive } from 'vue';
 import ProjectGithubComponentVue from '@/components/ProjectGithubComponent.vue';
+
+const codeNamesProject = {
+  title: 'QMIND Code Names AI',
+  description:[
+    "This is a project I worked on as part QMIND's Division of AI Research (DAIR) team. My team and I used Pytorch to train a model that considers both positive and negative aspects in order to fine tune a specific answer. The result is a vector search algorithm that can very quickly find the optimal hint.",
+    'My role with for this project was to collaborate on the model, as well as building the front end to show off the app at CUCAI.',
+    'The result is an extremely effective agent for codenames, guessing on average 5.6 words per turn and absolutely dominating human players.',
+  ],
+  photo: require('@/assets/DALLeCodeNames.jpg'),
+  githubUrl: 'https://github.com/aclarke500/qmind-codenames-front-end',
+  websiteUrl: null,
+}
 
 const verusProject = {
   title: 'Verus AMB',
@@ -65,6 +78,7 @@ const state = reactive({
   arduinoTwosComplementProject: arduinoTwosComplementProject,
   operatingSystemStudySite: operatingSystemStudySite,
   verusProject: verusProject,
+  codeNamesProject: codeNamesProject,
 })
 </script>
 
