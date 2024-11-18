@@ -1,8 +1,7 @@
 # portfolio-website
 
 <h2>Check it out!</h2>
-<a href="https://aclarke500.github.io/portfolio-website/">Click here!</a>
-<a href="https://aclarke500.github.io/AdamClarke/">Click here2</a>
+<a href="https://adamclarke.netlify.app//">Click here!</a>
 
 ## Project setup
 ```
