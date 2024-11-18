@@ -2,7 +2,7 @@
   <div class="container">
     <div class="img-container">
       <img src="../assets/veruspitch2.jpeg" alt="Verus">
-      <figcaption>Vinicius and myself winning the Wisdom of the Market Award at the Annual Queen's Innovation Centre Pitch Competition</figcaption> <!-- Caption for the image -->
+      <p>Vinicius and myself winning the Wisdom of the Market Award at the Annual Queen's Innovation Centre Pitch Competition</p> <!-- Caption for the image -->
     </div>
   </div>
 </template>

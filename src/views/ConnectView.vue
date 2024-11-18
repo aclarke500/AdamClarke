@@ -22,7 +22,7 @@
       <span class="link-text">Instagram</span>
     </div>
   </div>
-  <p>Or email me at: <div id="underline">aclarke500@gmail.com</div></p>
+  <p>Or email me at: <span id="underline">aclarke500@gmail.com</span></p>
 </template>
 
 <script setup>
