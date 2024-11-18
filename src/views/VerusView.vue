@@ -3,7 +3,7 @@
     <h1>Verus Automated Medical Billing</h1>
     <p>Verus Automated Medical Billing (Verus AMB) is a project I co-founded with Dr. Fabio Ynoe de Moraes and my best
       friend Vinicius Purgato out of my first year at Queen's. Feel free to check it out
-    <span id="verus-link" @click="openVerus">here</span>.</p>
+    <span class="link" @click="openVerus">here</span>.</p>
     <p>Verus aims to take the "ill" from medical bills to let doctors do what they were meant to do: take care of
       patients. </p>
     <p>Alongisde Vinicius, I designed, developed and implemented an innovative billing solution that automates physicain

@@ -25,7 +25,7 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #bfc0c2;
-  background-color: #2c3e50;
+  background-color: #11589f;
   min-height: 100vh; /* Full height of the viewport */
   min-width: 100vw; /* Full width of the viewport */
   box-sizing: border-box; /* Ensures padding does not affect the actual box size */
@@ -46,7 +46,7 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #853eff;
+  color: #fff;
 }
 
 /* Include font-awesome icons */

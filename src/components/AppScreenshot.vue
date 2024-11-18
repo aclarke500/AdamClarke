@@ -24,8 +24,8 @@
 .img-container img {
   width: 50%;  /* Or the width of your choice */
   height: 50%; /* Or the height of your choice, ensure it's a square for a circle crop */
-  border-radius: 10%; /* Makes the image round */
-  border: 3px solid #a519cf;
+  border-radius: 5%; /* Makes the image round */
+  border: 1px solid black;
   
   
 }
