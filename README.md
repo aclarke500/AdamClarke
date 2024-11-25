@@ -1,7 +1,7 @@
 # portfolio-website
 
-<h2>Check it out!</h2>
-<a href="https://adamclarke.netlify.app//">Click here!</a>
+<h2>Hosting:</h2>
+<a href="https://adamclarke.netlify.app//">Click me!</a>
 
 ## Project setup
 ```
